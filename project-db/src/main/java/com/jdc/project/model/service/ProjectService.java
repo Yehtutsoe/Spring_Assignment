@@ -41,7 +41,7 @@ public class ProjectService {
 	@Value("${service.search.projects}")
 	private String search;
 	
-	@Value("${service.serarchAll.projects}")
+	@Value("${service.searchAll.projects}")
 	private String searchAll;
 
 	private BeanPropertyRowMapper<Project> rowMapper;
